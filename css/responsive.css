@@ -1,0 +1,110 @@
+.main-header{
+    padding: 0;
+    position: static;
+}
+.login{
+    display: none;
+}
+.section{
+    background-position: center;
+    background-color: rgba(0, 0, 0, .7);
+    background-blend-mode: color;
+}
+.section div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.combo{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logocombo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logocombo img{
+    width: 50%;
+}
+.link a{
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+}
+.valor{
+    margin: 0;
+}
+.watch{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.imgwatch{
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+.sectioncombo{
+    display: flex;
+    flex-direction: column;
+}
+.imgcombo{
+    width: 100%;
+}
+.content-download{
+    background-position: center;
+}
+.content-img{
+    background-color: rgba(0, 0, 0, .7);
+    background-blend-mode: color;
+}
+.dispositivos{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    display: block;
+    position: absolute;
+    right: 0;
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+.line{
+    width: 25px;
+    height: 3px;
+    background: dodgerblue;
+    margin: 5px 0;
+}
+
+.clicked .line:nth-child(1){
+    transform: rotate(-45deg) translate(-8px,7px);
+}
+.clicked .line:nth-child(2){
+    opacity: 0;
+}
+.clicked .line:nth-child(3){
+    transform: rotate(45deg) translate(-3px,-3px);
+}
+.clicked{
+    z-index: 999;
+}
+
+.login-buttons{
+    height:100vh ;
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
